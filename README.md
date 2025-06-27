@@ -46,7 +46,7 @@ Demostrar habilidades en:
 🛍️ Producto: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
 💲 Precio: $109.95
 📄 Descripción: Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday
-🌟 Rating: Instance of 'Rating' (120 reviews)
+🌟 Rating: (120 reviews)
 
 ----------Datos de un usuario con id 2-----------
 
