@@ -7,22 +7,6 @@ import 'package:request_api_console/models/cart.dart';
 class CartService {
   final String _baseUrl = '${Environment.baseUrlApiService}/carts';
 
-  Future<Either<String, List<Cart>>> getAllCarts() async {
-    print(_baseUrl);
-    try {
-      final response = await http.get(Uri.parse(_baseUrl));
-
-      if (response.statusCode == 200) {
-        final carts = cartListFromJson(response.body);
-        return Right(carts);
-      } else {
-        return Left('Error: código ${response.statusCode}');
-      }
-    } catch (e) {
-      return Left('Excepción: ${e.toString()}');
-    }
-  }
-
   Future<Either<String, Cart>> getCartById(int id) async {
     try {
       final response = await http.get(Uri.parse('$_baseUrl/$id'));
