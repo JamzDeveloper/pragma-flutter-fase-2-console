@@ -35,7 +35,7 @@ Future<void> showUser(UserService service, int id) async {
     print("✏️ Apellido: ${user.name.lastname}");
     print("👤 Username: ${user.username}");
     print("✉️ Email: ${user.email}");
-    print("📌 Dirección: ${user.address}");
+    print("📌 Dirección: ${user.address.city} - ${user.address.street} - ${user.address.zipcode}");
     print("📞 Celular: ${user.phone}");
   });
 }

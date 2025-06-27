@@ -54,7 +54,7 @@ Demostrar habilidades en:
 ✏️ Apellido: morrison
 👤 Username: mor_2314
 ✉️ Email: morrison@gmail.com
-📌 Dirección: Instance of 'Address'
+📌 Dirección: kilcoole - Lovers Ln - 12926-3874
 📞 Celular: 1-570-236-7033
 
 -----------Carrito con id 1----------
