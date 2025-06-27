@@ -24,7 +24,7 @@ Future<void> showProduct(ProductService service, int id) async {
     print("🛍️ Producto: ${product.title}");
     print("💲 Precio: \$${product.price}");
     print("📄 Descripción: ${product.description}");
-    print("🌟 Rating: ${product.rating} (${product.rating.count} reviews)");
+    print("🌟 Rating: (${product.rating.count} reviews)");
   });
 }
 
